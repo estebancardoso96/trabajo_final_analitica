@@ -1,0 +1,171 @@
+{
+  "source": "Olist - Marketing",
+  "description": "Brazil commercial campaign calendar, 2017-2018",
+  "country": "BR",
+  "prepared_on": "2018-01-15",
+  "date_format": "YYYY-MM-DD",
+  "end_date_inclusive": true,
+  "campaigns": [
+    {
+      "campaign_id": "CMP-2017-01",
+      "campaign_name": "Carnival 2017",
+      "campaign_type": "holiday",
+      "start_date": "2017-02-25",
+      "end_date": "2017-03-01"
+    },
+    {
+      "campaign_id": "CMP-2017-02",
+      "campaign_name": "Consumer Day 2017",
+      "campaign_type": "retail_date",
+      "start_date": "2017-03-09",
+      "end_date": "2017-03-15"
+    },
+    {
+      "campaign_id": "CMP-2017-03",
+      "campaign_name": "Easter 2017",
+      "campaign_type": "holiday",
+      "start_date": "2017-04-03",
+      "end_date": "2017-04-16"
+    },
+    {
+      "campaign_id": "CMP-2017-04",
+      "campaign_name": "Mother's Day 2017",
+      "campaign_type": "gift_date",
+      "start_date": "2017-05-01",
+      "end_date": "2017-05-14"
+    },
+    {
+      "campaign_id": "CMP-2017-05",
+      "campaign_name": "Valentine's Day (Brazil) 2017",
+      "campaign_type": "gift_date",
+      "start_date": "2017-05-30",
+      "end_date": "2017-06-12"
+    },
+    {
+      "campaign_id": "CMP-2017-06",
+      "campaign_name": "Father's Day 2017",
+      "campaign_type": "gift_date",
+      "start_date": "2017-07-31",
+      "end_date": "2017-08-13"
+    },
+    {
+      "campaign_id": "CMP-2017-07",
+      "campaign_name": "Customer Day 2017",
+      "campaign_type": "retail_date",
+      "start_date": "2017-09-09",
+      "end_date": "2017-09-15"
+    },
+    {
+      "campaign_id": "CMP-2017-08",
+      "campaign_name": "Children's Day 2017",
+      "campaign_type": "gift_date",
+      "start_date": "2017-09-29",
+      "end_date": "2017-10-12"
+    },
+    {
+      "campaign_id": "CMP-2017-09",
+      "campaign_name": "Black Friday 2017",
+      "campaign_type": "sale_event",
+      "start_date": "2017-11-24",
+      "end_date": "2017-11-26"
+    },
+    {
+      "campaign_id": "CMP-2017-10",
+      "campaign_name": "Cyber Monday 2017",
+      "campaign_type": "sale_event",
+      "start_date": "2017-11-27",
+      "end_date": "2017-11-27"
+    },
+    {
+      "campaign_id": "CMP-2017-11",
+      "campaign_name": "Christmas 2017",
+      "campaign_type": "holiday",
+      "start_date": "2017-12-01",
+      "end_date": "2017-12-25"
+    },
+    {
+      "campaign_id": "CMP-2018-01",
+      "campaign_name": "Carnival 2018",
+      "campaign_type": "holiday",
+      "start_date": "2018-02-10",
+      "end_date": "2018-02-14"
+    },
+    {
+      "campaign_id": "CMP-2018-02",
+      "campaign_name": "Consumer Day 2018",
+      "campaign_type": "retail_date",
+      "start_date": "2018-03-09",
+      "end_date": "2018-03-15"
+    },
+    {
+      "campaign_id": "CMP-2018-03",
+      "campaign_name": "Easter 2018",
+      "campaign_type": "holiday",
+      "start_date": "2018-03-19",
+      "end_date": "2018-04-01"
+    },
+    {
+      "campaign_id": "CMP-2018-04",
+      "campaign_name": "Mother's Day 2018",
+      "campaign_type": "gift_date",
+      "start_date": "2018-04-30",
+      "end_date": "2018-05-13"
+    },
+    {
+      "campaign_id": "CMP-2018-05",
+      "campaign_name": "Valentine's Day (Brazil) 2018",
+      "campaign_type": "gift_date",
+      "start_date": "2018-05-30",
+      "end_date": "2018-06-12"
+    },
+    {
+      "campaign_id": "CMP-2018-06",
+      "campaign_name": "World Cup 2018",
+      "campaign_type": "sports_event",
+      "start_date": "2018-06-14",
+      "end_date": "2018-07-15"
+    },
+    {
+      "campaign_id": "CMP-2018-07",
+      "campaign_name": "Father's Day 2018",
+      "campaign_type": "gift_date",
+      "start_date": "2018-07-30",
+      "end_date": "2018-08-12"
+    },
+    {
+      "campaign_id": "CMP-2018-08",
+      "campaign_name": "Customer Day 2018",
+      "campaign_type": "retail_date",
+      "start_date": "2018-09-09",
+      "end_date": "2018-09-15"
+    },
+    {
+      "campaign_id": "CMP-2018-09",
+      "campaign_name": "Children's Day 2018",
+      "campaign_type": "gift_date",
+      "start_date": "2018-09-29",
+      "end_date": "2018-10-12"
+    },
+    {
+      "campaign_id": "CMP-2018-10",
+      "campaign_name": "Black Friday 2018",
+      "campaign_type": "sale_event",
+      "start_date": "2018-11-23",
+      "end_date": "2018-11-25"
+    },
+    {
+      "campaign_id": "CMP-2018-11",
+      "campaign_name": "Cyber Monday 2018",
+      "campaign_type": "sale_event",
+      "start_date": "2018-11-26",
+      "end_date": "2018-11-26"
+    },
+    {
+      "campaign_id": "CMP-2018-12",
+      "campaign_name": "Christmas 2018",
+      "campaign_type": "holiday",
+      "start_date": "2018-12-01",
+      "end_date": "2018-12-25"
+    }
+  ]
+}
