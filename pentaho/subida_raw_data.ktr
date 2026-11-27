@@ -1401,7 +1401,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>olist_customers</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1539,7 +1539,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>sap_customers</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1633,7 +1633,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>order_items</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1727,7 +1727,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>orders</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1771,7 +1771,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>product_category_name_translation</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1859,7 +1859,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>products</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1883,7 +1883,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
       </output>
     </remotesteps>
     <GUI>
-      <xloc>992</xloc>
+      <xloc>976</xloc>
       <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2122,7 +2122,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>campaign_calendar</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -2489,7 +2489,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>budget_2018</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -2674,7 +2674,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>regions</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -2859,7 +2859,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
     <schema>bronze</schema>
     <table>categories</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
