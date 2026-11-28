@@ -3,16 +3,11 @@ SELECT TOP 100 *
 FROM bronze.budget_2018;
 
 SELECT TOP 100 *
-FROM bronze.campaign_calendar;
+FROM bronze.campaign_calendar
+--WHERE end_date < start_date;
 
 SELECT TOP 100 *
 FROM bronze.categories;
-
-SELECT TOP 100 *
-FROM bronze.order_items;
-
-SELECT TOP 100 *
-FROM bronze.orders;
 
 SELECT TOP 100 *
 FROM bronze.product_category_name_translation;
@@ -23,13 +18,24 @@ FROM bronze.products;
 SELECT TOP 100 *
 FROM bronze.regions;
 
+SELECT TOP 100 *
+FROM bronze.order_items;
+
+SELECT TOP 100 *
+FROM bronze.orders;
+
+SELECT TOP 100 *
+FROM silver.categories;
+
+SELECT *
+FROM silver.products;
+
 -- Pruebas para limpieza
 
 SELECT *
 FROM bronze.products p
-	INNER JOIN bronze.product_category_name_translation ptra ON p.product_category_name = ptra.product_category_name
-	INNER JOIN bronze.categories c ON ptra.product_category_name_english = c.olist_category --32328
-
+	LEFT JOIN bronze.product_category_name_translation ptra ON p.product_category_name = ptra.product_category_name
+	LEFT JOIN bronze.categories c ON ptra.product_category_name_english = c.olist_category --32328
 
 SELECT *
 FROM bronze.products p
